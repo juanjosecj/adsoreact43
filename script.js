@@ -165,3 +165,9 @@ console.log(primaryGenres, otherGenres);
 const newGeners = ["epic fantasy", ...otherGenres];
 console.log(newGeners);
 
+const updateBook = {
+  ...book,
+  moviePublicationDate: "2001-12-19",
+pages: 1210,
+};
+updateBook;
